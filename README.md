@@ -7,7 +7,7 @@
 ## Features
 
     DI: Dagger 2
-    Async: RxJava 3 + adapters (Rx ↔ Coroutines)
+    Async: RxJava 3
     Serialization: kotlinx.serialization (JSON)
     Auth: JWT (com.auth0/java-jwt via Ktor auth-jwt)
     Tests: JUnit 5 + ktor-server-tests + MockK
