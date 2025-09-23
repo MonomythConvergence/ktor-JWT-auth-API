@@ -2,6 +2,19 @@
 kotlin = "2.2.20"
 ktor = "3.3.0"
 logback = "1.4.14"
+#added
+kotlinx-serialization = "1.6.0"
+coroutines = "1.7.3"
+dagger = "2.47"
+rxjava = "3.1.6"
+rxkotlin = "3.0.1"
+kotlinx-rx3 = "1.7.3" # adapters
+auth0 = "4.4.0"
+junit = "5.9.3"
+mockk = "1.14.5"
+shadow = "9.1.0"
+kapt = "2.2.20"
+
 
 [libraries]
 ktor-server-auth = { module = "io.ktor:ktor-server-auth", version.ref = "ktor" }
@@ -14,8 +27,21 @@ logback-classic = { module = "ch.qos.logback:logback-classic", version.ref = "lo
 ktor-server-config-yaml = { module = "io.ktor:ktor-server-config-yaml", version.ref = "ktor" }
 ktor-server-test-host = { module = "io.ktor:ktor-server-test-host", version.ref = "ktor" }
 kotlin-test-junit = { module = "org.jetbrains.kotlin:kotlin-test-junit", version.ref = "kotlin" }
+#added
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx-serialization" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
+kotlinx-coroutines-rx3 = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-rx3", version.ref = "coroutines" }
+dagger = { module = "com.google.dagger:dagger", version.ref = "dagger" }
+dagger-compiler = { module = "com.google.dagger:dagger-compiler", version.ref = "dagger" }
+rxjava3 = { module = "io.reactivex.rxjava3:rxjava", version.ref = "rxjava" }
+rxkotlin = { module = "io.reactivex.rxjava3:rxkotlin", version.ref = "rxkotlin" }
+auth0-java-jwt = { module = "com.auth0:java-jwt", version.ref = "auth0" }
+junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit" }
+mockk-core = { module = "io.mockk:mockk", version.ref = "mockk" }
 
 [plugins]
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 ktor = { id = "io.ktor.plugin", version.ref = "ktor" }
 kotlin-plugin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+kapt = {id = "org.jetbrains.kotlin.kapt", version.ref="kapt"}
+shadow = { id = "com.gradleup.shadow", version.ref = "shadow" }

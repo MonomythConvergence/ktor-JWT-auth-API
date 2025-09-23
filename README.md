@@ -27,3 +27,6 @@
     runs tests
     creates and uploads a fat JAR artifact
 
+## Progress
+    Day 1: Skeleton + gradle setup: [✔]
+    
