@@ -8,7 +8,6 @@ coroutines = "1.7.3"
 dagger = "2.47"
 rxjava = "3.1.6"
 rxkotlin = "3.0.1"
-kotlinx-rx3 = "1.7.3" # adapters
 auth0 = "4.4.0"
 junit = "5.9.3"
 mockk = "1.14.5"
