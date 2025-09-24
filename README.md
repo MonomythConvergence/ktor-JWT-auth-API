@@ -29,4 +29,4 @@
 
 ## Progress
     Day 1: Skeleton + gradle setup: [✔]
-    
+    Day 2: Login will take some time...: [X]
