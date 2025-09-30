@@ -28,5 +28,5 @@
     creates and uploads a fat JAR artifact
 
 ## Progress
-    Day 1: Skeleton + gradle setup: [✔]
-    Day 2: Login will take some time...: [X]
+    Part 1: Skeleton + gradle setup: [✔]
+    Part 2: Cryptographic hashing setup: [X]
