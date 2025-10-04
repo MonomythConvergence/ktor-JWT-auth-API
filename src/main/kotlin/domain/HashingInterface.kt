@@ -1,5 +1,5 @@
 package com.example.domain
 
 interface HashingInterface {
-    fun hash(password : String) : ByteArray
+    fun hash(string : String) : ByteArray
 }
