@@ -1,6 +1,6 @@
 [versions]
-kotlin = "2.2.20"
-ktor = "3.3.0"
+kotlin = "1.9.22"
+ktor = "2.3.6"
 logback = "1.4.14"
 #added
 kotlinx-serialization = "1.6.0"
@@ -11,8 +11,7 @@ rxkotlin = "3.0.1"
 auth0 = "4.4.0"
 junit = "5.9.3"
 mockk = "1.14.5"
-shadow = "9.1.0"
-kapt = "2.2.20"
+kapt = "1.9.22"
 
 
 [libraries]
@@ -43,4 +42,3 @@ kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 ktor = { id = "io.ktor.plugin", version.ref = "ktor" }
 kotlin-plugin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
 kapt = {id = "org.jetbrains.kotlin.kapt", version.ref="kapt"}
-shadow = { id = "com.gradleup.shadow", version.ref = "shadow" }

@@ -4,7 +4,6 @@ plugins {
     alias(libs.plugins.kotlin.plugin.serialization)
     //added
     alias(libs.plugins.kapt)
-    alias(libs.plugins.shadow)
 }
 
 group = "com.example"
