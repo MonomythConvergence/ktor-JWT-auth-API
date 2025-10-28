@@ -30,7 +30,7 @@ dependencies {
     implementation(libs.kotlinx.coroutines.core)
     implementation(libs.kotlinx.coroutines.rx3)
     implementation(libs.dagger)
-    implementation(libs.dagger.compiler)
+    kapt(libs.dagger.compiler)
     implementation(libs.rxjava3)
     implementation(libs.rxkotlin)
     implementation(libs.auth0.java.jwt)

@@ -31,5 +31,5 @@
     Part 1: Skeleton + gradle setup: [✔]
     Part 2: Cryptographic hashing 1, local+GH worflow pepper: [✔]
     Part 3: Cryptographic hashing 2: SHA-256: [✔]
-    ---Baseline done---
+    ---Baseline done, branching dev---
     Part 4: Dagger2 DI: [X]
