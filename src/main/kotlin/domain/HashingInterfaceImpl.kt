@@ -1,12 +1,10 @@
 package com.example.domain
 
-import com.example.utils.LocalPropertyGetterUtil
 import java.nio.charset.StandardCharsets
 import java.security.MessageDigest
 
-class HashingInterfaceImpl : HashingInterface {
+class HashingInterfaceImpl(private val getter: LocalPropertyGetter) : HashingInterface {
     override fun hash(string: String): ByteArray {
-        val getter = LocalPropertyGetterUtil() //todo DI
         val pepperBytes = getter.get("pepper")?.toByteArray(StandardCharsets.UTF_8)
         val md = MessageDigest.getInstance("SHA-256")
 
